@@ -8,6 +8,7 @@ import javax.enterprise.event.Observes;
 
 @ApplicationScoped
 public class Application {
+
     void onStart(@Observes StartupEvent startupEvent) {
         System.out.println("The application is starting . . .");
     }
